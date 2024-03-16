@@ -2,8 +2,7 @@ redes de computadores e a internet?
  - isp : provedor de serviço de internet (claro, vivo, tim), podem ser nacionais ou globais
  - isp local: provedor de serviço regional (SIM FIBRA) 
 
-tcp/ip:
-
+<!-- tcp/ip: -->
 
 iso/osi:
  modelo osi - 7 camadas: 
@@ -17,3 +16,5 @@ iso/osi:
     - se preocupa com o tipo, espaço e material
     como pode ocorrer a transmissão de 3 formas: 1 - simplex: um dispositivo transmite (Tx) o dado e o outro recebe (Rx) o dado transmitido (Unidirecional); 2 - half-duplex: walk tok, um recebe e o ou emite por vez / um sentido por vez;   3 - full-duplex: telefone, transmissão e recebimento de dados ao mesmo tempo.
      
+    camada enlace:
+    - controle de acesso ao meio físico, detecção de erros (define meios para reconhecer erros) 
