@@ -42,10 +42,16 @@ iso/osi:
     pode ser dividido em duas partes: orientado a conexão (verfica-se a existência o destino - GARANTE A ENTRAGA) e o não orientado a conexão (não verifica a existência do destino, e de tal modo, não se preocupa com os dados enviados - SÓ ENVIA)
 
     camada de sessão (5º):
+    - responsável pelo processo de inciar e encerrar um conexão entre hosts
+    - suporte: registros de logs e tarefas de segurança
     
     camada de apresentação (6º):
+    - efetua a tradução dos dados recebidos
+    - conversão de código para caracteres
 
     camada de aplicação (7º): 
+    - garante a interação humano-máquina
+    - camada dos protocolos (http, ftp)
 
 existem dispositivos que verificam camadas determinadas
 quanto mais camada = mais funções

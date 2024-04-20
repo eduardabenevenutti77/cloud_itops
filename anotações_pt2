@@ -1,0 +1,24 @@
+camada tcp: transporte - orientado a conexão 
+como o tcp faz para controlar dados recebidos: seq e ack
+
+ipv4: 
+ - endereçamento de redes, identificação e comunicação de dispositivos
+ - 4 blocos de 8 bits
+ é divido em dois tipos:
+  1º - válidos;
+  2º - locais (interno);
+
+REVISÃO - 12/04
+
+IPV4: 
+
+  mecanismo de endereçamento na camada de rede, identificação e comunicação entre dispositivos de rede, 
+formado por 4 blocos de 8 bits (32), dividido em endereços: válidos e locais (internos);
+  representado por decimais de 0 - 255, são transformado em binários ao serem processados
+  estrutura hierárquica: redes e hosts
+  diferentes identificadores para diferentes redes!
+  na mesma rede os identificadores são iguais
+  cada host tem um identificador exclusivo!
+
+pq o classe de padrão parou de existir? por causa da quantidades de números a serem usados e a quantidade de ip's a serem usados
+máscara de rede: cria redes de diferente tamanhos, ao trocar o valor do penúltimo bloco por 0 ou 1 - ajusta a tamanho da rede
