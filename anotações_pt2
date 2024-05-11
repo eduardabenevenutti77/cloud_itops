@@ -33,3 +33,13 @@ endereço privados (internos):
  - usados apenas em rede locais, começam com 10 | 192.168 ou 172.16 até 172.31
  - roteadores de grandes redes são configurados para ignorar 
 maneira de economizar ip - ofertar de maneira dinamica, conforme for aparecendo a necessidade de uso
+
+limitações do IPv4:
+ - falta de endereços;
+ - falta de conectividade de ponta a ponta - NAT;
+ - expensão da tabela de roteamento da Internet;
+
+solução IPv6:
+ - aumento de espaço de endereços - 128 bits (340 undecilhões de endereços);
+ - melhoria no tratamento de pacotes;
+ - evita problemas relacionados ao NAT
