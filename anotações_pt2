@@ -43,3 +43,8 @@ solução IPv6:
  - aumento de espaço de endereços - 128 bits (340 undecilhões de endereços);
  - melhoria no tratamento de pacotes;
  - evita problemas relacionados ao NAT
+
+transição de IPv4 para IPv6:
+ - rode pilhas duplas (ipv4 e ipv6 simultaneamente) -> + usado
+ - transpote ipv6 dentro do pacote ipv4 (tunelamento)
+ - converta pacotes de ipv4 para ipv6 - vice-versa (tradução)
