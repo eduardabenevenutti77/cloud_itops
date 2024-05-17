@@ -35,16 +35,27 @@ endereço privados (internos):
 maneira de economizar ip - ofertar de maneira dinamica, conforme for aparecendo a necessidade de uso
 
 limitações do IPv4:
- - falta de endereços;
+ - falta de endereços IP;
  - falta de conectividade de ponta a ponta - NAT;
  - expensão da tabela de roteamento da Internet;
 
 solução IPv6:
  - aumento de espaço de endereços - 128 bits (340 undecilhões de endereços);
  - melhoria no tratamento de pacotes;
- - evita problemas relacionados ao NAT
+ - evita problemas relacionados ao NAT;
 
 transição de IPv4 para IPv6:
- - rode pilhas duplas (ipv4 e ipv6 simultaneamente) -> + usado
- - transpote ipv6 dentro do pacote ipv4 (tunelamento)
- - converta pacotes de ipv4 para ipv6 - vice-versa (tradução)
+ - rode pilhas duplas (ipv4 e ipv6 simultaneamente) -> + usado em dispositivos de redes (a máquina ela pega o IPV que estiver disponível)
+ - transpote ipv6 dentro do pacote ipv4 (tunelamento) -> há um intermediário entre os dois IPV's
+ - converta pacotes de ipv4 para ipv6 - vice-versa (tradução) 
+
+- atualmente cada máquina tem um IP único e exclusivo (IPV6);
+- geralmente as máquinas oferecem os dois tipos (IPV4/IPV6);
+- o ipv6 é extremamente necessário!
+
+Representação IPV6:
+ - 128 bits ao total
+ - 4 digitos em cada grupo hexadecimal
+ - 8 grupos hexadocimal
+ - tem prefixo de rede (1ª representa a rede, 2ª representa o host)
+ - se tiver vários dígitos 0 - podemos omitir por ":" -> 2804:bd8:fa0:0:0:0:07344 - 2804:bd8:fa0::7344
