@@ -13,4 +13,8 @@ consessões:
  - em 50% do prazo de entrega o servidor entra em contato com dhcp para renovar o pedido
  - em 87,5% do tempo realiza novamente o pedido de renovação, se no 50% do tempo não obteve resposta
  - quando o dispositivo desliga, o IP é retornado ao DHCP (liberando o endereço)
+
+DHCPv6:
+ - tem menos funções
+ - usamos para quando queremos manter o registro
  - 
