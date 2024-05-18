@@ -45,9 +45,9 @@ solução IPv6:
  - evita problemas relacionados ao NAT;
 
 transição de IPv4 para IPv6:
- - rode pilhas duplas (ipv4 e ipv6 simultaneamente) -> + usado em dispositivos de redes (a máquina ela pega o IPV que estiver disponível)
+ - roda pilhas duplas (ipv4 e ipv6 simultaneamente) -> + usado em dispositivos de redes (a máquina ela pega o IPV que estiver disponível)
  - transpote ipv6 dentro do pacote ipv4 (tunelamento) -> há um intermediário entre os dois IPV's
- - converta pacotes de ipv4 para ipv6 - vice-versa (tradução) 
+ - converte pacotes de ipv4 para ipv6 - vice-versa (tradução) 
 
 - atualmente cada máquina tem um IP único e exclusivo (IPV6);
 - geralmente as máquinas oferecem os dois tipos (IPV4/IPV6);
@@ -55,7 +55,18 @@ transição de IPv4 para IPv6:
 
 Representação IPV6:
  - 128 bits ao total
- - 4 digitos em cada grupo hexadecimal
- - 8 grupos hexadocimal
+ - 4 dígitos em cada grupo hexadecimal
+ - 8 grupos hexadecimal
  - tem prefixo de rede (1ª representa a rede, 2ª representa o host)
  - se tiver vários dígitos 0 - podemos omitir por ":" -> 2804:bd8:fa0:0:0:0:07344 - 2804:bd8:fa0::7344
+
+Representação IPV6 - OUTROS TIPOS:
+ - link local (criado automaticamente usando o prefixo FE80:/64 para uso local quando não há ipv6 disponível do provedor)
+ - unique local address (ula) - endereço com probabilidade de ser globalmente único, usado só para comunicação local FC000 - FDFF::/7
+ - não especificado - ausência de endereço ::/128
+ - loopback - localhost ::1/128
+
+configuração IPV6:
+ - o modem dá a parte da rede, a máquina delimita a parte do host conforme o sistema operacional!
+ - a máquina deve fazer 16 bits para o host
+ - o windowns realiza de forma aleatoria
