@@ -5,7 +5,7 @@ o que é?
 funcionamento:
   - um software com endereço automáticos que ao iniciar encaminha por meio de broadcast, com isso ele responde com o IP disponível e outros dados necessários
 
-  
+
  [DHCP FUNCTION - IMAGE 📓](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learncisco.net%2Fcourses%2Ficnd-1%2Flan-connections%2Frouter-as-a-dhcp-server.html&psig=AOvVaw02kv_kXErItW4W-kGakTtr&ust=1716078433342000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiPosj4lYYDFQAAAAAdAAAAABAJ)
 
 consessões: 
@@ -19,4 +19,3 @@ consessões:
 DHCPv6:
  - tem menos funções
  - usamos para quando queremos manter o registro
- - 
