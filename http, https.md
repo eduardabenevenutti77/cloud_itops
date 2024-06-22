@@ -1,4 +1,4 @@
-## HTTP & HTTPS 💻
+## HTTP & HTTPS | FTP 💻
 
 _tcp:_ protocolo que garante a entrega da informação!
 
@@ -21,3 +21,16 @@ _http_
  - usa tcp, porta padrão 80
  - não mantêm informação do cliente
  - usa arquitetura cliente-servidor 
+
+_https_
+
+ - usa tcp, porta 443
+ - usa ssl (sistema que fornece privacidadade, integridade e autenticação)
+ - garante transporte seguro, mas não garante que o servidor é seguro
+ - evita o main-in-the-middle
+ - ssl analisa a identidade do servidor com base no certificado
+
+_ftp_
+
+ - protocolo de transferencia de arquivo
+ - usa tcp, portas: 21 (controle), 20 (transf)
